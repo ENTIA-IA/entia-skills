@@ -1,0 +1,42 @@
+{
+  "name": "entia",
+  "owner": {
+    "name": "ENTIA Systems",
+    "url": "https://entia.systems",
+    "email": "fv@entia.systems"
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "description": "ENTIA verified business identity infrastructure for AI agents. 7 skills built on Claude Agent SDK, covering verification, due diligence, zone intelligence, competitive analysis, monitoring, citation provenance, and bulk discovery. Backed by EU eIDAS Qualified Electronic Signature over a 5.2M-entity corpus across 34 jurisdictions."
+  },
+  "plugins": [
+    {
+      "name": "entia-skills",
+      "source": "./",
+      "category": "data-source",
+      "tags": [
+        "verification",
+        "business-identity",
+        "eidas",
+        "entity-resolution",
+        "ai-citation",
+        "spanish-registry",
+        "borme",
+        "geo",
+        "due-diligence",
+        "socioeconomic",
+        "compliance",
+        "kyc"
+      ],
+      "skills": [
+        "verify-company",
+        "due-diligence-full",
+        "zone-intelligence",
+        "competitive-analysis",
+        "monitor-changes",
+        "prove-citation",
+        "bulk-discovery"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "entia-skills",
+  "version": "1.0.0",
+  "description": "Verified business identity skills for AI agents. 7 skills powered by ENTIA's eIDAS-signed corpus of 5,211,584 entities across 34 jurisdictions. Built on Anthropic's Claude Agent SDK skill system. The first publicly QES-signed corpus citable by LLMs.",
+  "author": {
+    "name": "ENTIA Systems",
+    "email": "fv@entia.systems",
+    "url": "https://entia.systems"
+  },
+  "homepage": "https://entia.systems",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ENTIA-IA/entia-skills"
+  },
+  "license": "Apache-2.0",
+  "mcpServers": {
+    "entia": {
+      "type": "http",
+      "url": "https://mcp.entia.systems/mcp"
+    }
+  },
+  "skills": "./skills/"
+}

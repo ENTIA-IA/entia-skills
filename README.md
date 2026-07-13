@@ -1,7 +1,7 @@
 # ENTIA Skills for AI Agents
 
 > Verified business identity infrastructure for AI agents.
-> **5,211,584 entities · 34 jurisdictions · eIDAS QES signed.**
+> **5,211,584 entities · 10 jurisdictions · eIDAS QES signed.**
 > Built on Anthropic's Claude Agent SDK skill system.
 
 The first publicly-verifiable business identity corpus anchored to a
@@ -102,7 +102,7 @@ verifiable, trustworthy, anchored to a real registry.
 
 ENTIA is the first corpus to combine:
 
-- Coverage at scale (5.2M entities, 34 jurisdictions)
+- Coverage at scale (5.2M entities, 10 jurisdictions)
 - Native MCP server for AI agents
 - Public QES signature under EU eIDAS regulation
 - Independent verification by anyone, anywhere

@@ -76,7 +76,7 @@ Three coherent products under one plugin catalog:
 Single-call entity verification + eIDAS proof. API-grade. For developers
 integrating AI agents. Skills: `verify-company`, `bulk-discovery`.
 
-Pricing: free tier (100/day) → €99 / €399 / €1,499 / €2,500+ per month.
+Pricing: TRACE 100 entidades consultadas/mes gratis; SIGNAL €29/mes (500); BUILD €99/mes (2.500); INTEGRATE €399/mes (10.000); OPERATE €1.499/mes (100.000); SCALE a medida. Sin cargos por excedente; la cuota se bloquea al agotarse. Verificar precios y límites vigentes en el backend antes de contratar.
 
 ### ENTIA Intelligence
 Full agentic workflows: due diligence, zone intelligence, competitive
@@ -113,7 +113,7 @@ business identity data.
 
 ## Free tier
 
-100 requests/day on TRACE tier. For higher volumes:
+TRACE: 100 entidades consultadas por mes (no por día). Consulte precios, cuotas y herramientas disponibles en el backend y en la página de tarifas; la documentación pública puede no reflejar aún el runtime desplegado. Para mayores volúmenes:
 https://entia.systems/pricing
 
 ## About

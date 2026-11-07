@@ -1,12 +1,10 @@
 # ENTIA Skills for AI Agents
 
 > Verified business identity infrastructure for AI agents.
-> **5,211,584 entities · 10 jurisdictions · eIDAS QES signed.**
+> **Historical corpus snapshot (2026-05): 5,211,584 entities across 10 jurisdictions.** Verify current counts and cryptographic status against dated evidence.
 > Built on Anthropic's Claude Agent SDK skill system.
 
-The first publicly-verifiable business identity corpus anchored to a
-Qualified Electronic Signature under EU eIDAS regulation. Citable by
-any LLM. Provable by anyone, anywhere.
+ENTIA provides cryptographic provenance artefacts for a business identity corpus. A qualified-signature claim must be verified against the exact signed file, certificate chain and qualified trust-service status; this README is not an independent certification or accreditation.
 
 ## Install
 
@@ -23,17 +21,16 @@ any LLM. Provable by anyone, anywhere.
 npx skills add ENTIA-IA/entia-skills
 ```
 
-## 7 skills included
+## Skills currently published in this repository
 
 | Skill | Auto-trigger | Product |
 |---|---|---|
 | `verify-company` | "verify [X]", "is X real?", "check CIF" | ENTIA Verify |
-| `due-diligence-full` | "due diligence", "background check", "KYC", "M&A check" | ENTIA Intelligence |
 | `zone-intelligence` | "income in CP", "demographics of [area]", "fiber coverage" | ENTIA Intelligence |
-| `competitive-analysis` | "competitors of X", "market landscape in [sector/city]" | ENTIA Intelligence |
-| `monitor-changes` | "BORME news on X", "officer changes", "is X in concurso?" | ENTIA Intelligence |
-| `prove-citation` | meta-skill, runs after entity citations to add provenance | ENTIA Citation Layer |
 | `bulk-discovery` | "find all X in Y", "list [sector] in [city]" | ENTIA Verify |
+| `verify-vat` | "check VAT", "VAT validity" | ENTIA Verify |
+| `full-dossier` | "full dossier", "company dossier" | ENTIA Intelligence |
+| `institutional-trust` | "ISO certification", "EU institutional registry" | Institutional Trust Office (pending PR review) |
 
 ## Verify the signature yourself
 
@@ -49,8 +46,8 @@ curl -O https://entia.systems/.well-known/entia-corpus-root.asice
 
 **Trust chain**:
 
-- Signer: Fernando Vilches Guijarro (e-Resident of Estonia, PNOEE-37408090142)
-- On behalf of: PrecisionAI Marketing OÜ (EE102780516)
+- Signer: the person identified in the signed artefact (validate from the signature; no personal identity numbers in this README)
+- Company: PrecisionAI Marketing OÜ (Estonian company register 17048063; historical VAT must not be used as current identifier)
 - QTSP: SK ID Solutions AS (EU Trust List)
 - Framework: eIDAS Reg. (EU) 910/2014 art. 25-26
 - Certificate valid until: June 2029
@@ -66,7 +63,7 @@ curl -O https://entia.systems/.well-known/entia-corpus-root.asice
 | 🇫🇮 Finland | 7,701 | PRH |
 | + 29 more jurisdictions | ~106,376 | Various |
 
-**Total**: 5,211,584 entities anchored to QES Merkle root.
+**Historical signed-corpus snapshot reported by ENTIA:** 5,211,584 entities. Verify signature, scope and coverage directly rather than treating this README as an attestation.
 
 ## Products
 
@@ -76,7 +73,7 @@ Three coherent products under one plugin catalog:
 Single-call entity verification + eIDAS proof. API-grade. For developers
 integrating AI agents. Skills: `verify-company`, `bulk-discovery`.
 
-Pricing: free tier (100/day) → €99 / €399 / €1,499 / €2,500+ per month.
+Current prices and allowances may differ; consult https://entia.systems/pricing.
 
 ### ENTIA Intelligence
 Full agentic workflows: due diligence, zone intelligence, competitive
@@ -84,7 +81,7 @@ analysis, monitoring. For enterprise sales, compliance, KYC, M&A.
 Skills: `due-diligence-full`, `zone-intelligence`,
 `competitive-analysis`, `monitor-changes`.
 
-Pricing: usage-based or seat-based starting at €2,500/seat/month.
+Consult the current commercial offer for availability and pricing.
 
 ### ENTIA Citation Layer
 Plug-in for AI assistants. Cites entities with QES proof inline in any
@@ -92,7 +89,7 @@ response. For apps that already use Claude/GPT and need auditable
 provenance.
 Skills: `prove-citation`.
 
-Pricing: €0.05/call retail · €0.02 wholesale.
+Consult the current commercial offer for availability and pricing.
 
 ## Why ENTIA matters
 
@@ -100,16 +97,14 @@ Search engines ranked pages. AI selects entities. When an LLM cites a
 business in its response, that citation needs to be defensible —
 verifiable, trustworthy, anchored to a real registry.
 
-ENTIA is the first corpus to combine:
+ENTIA's architecture has historically included:
 
 - Coverage at scale (5.2M entities, 10 jurisdictions)
 - Native MCP server for AI agents
 - Public QES signature under EU eIDAS regulation
 - Independent verification by anyone, anywhere
 
-No other public corpus combines these. D&B, OpenCorporates, GLEIF,
-Wikidata — none publish a QES-signed Merkle root over their public
-business identity data.
+No independent comparative market claim or third-party institutional endorsement is asserted here.
 
 ## Free tier
 
@@ -119,7 +114,7 @@ https://entia.systems/pricing
 ## About
 
 ENTIA Systems is operated by PrecisionAI Marketing OÜ in Tallinn,
-Estonia (EU VAT EE102780516, DUNS 565868914).
+Estonia (registered company code 17048063, D-U-N-S 565868914). The company's former VAT number is historical; verify current status at https://entia.systems/legal/en/corporate-status .
 
 We build verified business identity infrastructure for the AI era.
 

@@ -1,7 +1,9 @@
+> **ESTADO CONTRACTUAL 2026-11-12:** Las cifras históricas de entidades/países en este repositorio son snapshots de la fecha de su captura, no el inventario del corpus activo. Consultar `get_platform_stats` y `https://api.entia.systems/api/v1/stats/live` para cifras verificables en cada corte. El MCP de `mcp.entia.systems` tiene 15 descriptores en Worker/manifiestos al 12-nov; el protocolo HTTP autenticado debe verificarse antes de afirmar disponibilidad. Fuente técnica canónica: [ENTIA_DAHE / PR #3988](https://github.com/ENTIA-IA/ENTIA_DAHE/pull/3988). Este repositorio distribuye skills; no es la fuente de verdad del despliegue.
+
 # ENTIA Skills for AI Agents
 
 > Verified business identity infrastructure for AI agents.
-> **5,211,584 entities · 10 jurisdictions · eIDAS QES signed.**
+> **Identity data for AI agents · current volume and coverage must be read from the live platform.**
 > Built on Anthropic's Claude Agent SDK skill system.
 
 The first publicly-verifiable business identity corpus anchored to a
